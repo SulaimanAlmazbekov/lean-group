@@ -1,0 +1,56 @@
+.certificates {
+    position: relative;
+
+
+
+    .owl {
+        &-nav {
+            cursor: pointer;
+        }
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        // transition: 2s;
+
+        .custom-prev {
+            top: 50%;
+            transform: translateY(-50%);
+            // z-index: 2;
+            left: 2%;
+            position: absolute;
+
+            &:hover {
+                // transform: rotate(360deg);
+                box-shadow: 1px 1px 10px 0px;
+            }
+        }
+
+        .custom-next {
+            top: 50%;
+            transform: translateY(-50%);
+            // z-index: 2;
+            position: absolute;
+            right: 0.2%;
+
+            &:hover {
+                // transform: rotate(360deg);
+                box-shadow: 1px 1px 10px 0px;
+            }
+        }
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        background: none;
+        border: 1px solid rgb(252, 139, 9);
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: #EF7C00;
+    }
+}

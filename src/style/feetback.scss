@@ -1,0 +1,115 @@
+.feetback {
+    // height: 376px;
+    &__blok {
+        background: url(../images/feetback/feetback.png) center/cover;
+        // display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 20px;
+        // box-shadow: -2px 2px 2px 2px;
+        
+
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2C2D2E;
+        margin-bottom: 16px;
+        padding-top: 24px;
+
+        span {
+            color: #EF7C00;
+        }
+    }
+
+    &__subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2C2D2E;
+        max-width: 360px;
+        padding-top: 16px;
+    }
+
+    &__form {
+        box-sizing: border-box;
+        width: 40%;
+        position: relative;
+        box-sizing: border-box;
+
+        .label {
+            background: #FFFFFF;
+            height: 40px;
+            flex-direction: row;
+
+            &__text {
+                width: 178px;
+                height: 40px;
+                border: none;
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 0px 4px 4px 0px;
+            }
+
+            &__img {
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 4px 0px 0px 4px;
+                width: 40px;
+                height: 40px;
+                margin-top: 32px;
+            }
+
+            &__number {
+                border: none;
+                width: 178px;
+                height: 40px;
+                border: none;
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 0px 4px 4px 0px;
+            }
+
+        }
+    }
+
+    &__textarea {
+        margin-top: 12px;
+        border: none;
+        // position: relative;
+        width: 446px;
+        height: 80px;
+        top: 64px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 16, 61, 0.12);
+        border-radius: 4px;
+        margin-bottom: 12px;
+    }
+
+    &__btn {
+        // position: relative;
+        border: none;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background: #EF7C00;
+        border-radius: 4px;
+        // margin-bottom: 36px;
+        // padding-bottom: 36px;
+        justify-content: center;
+        margin: 0 auto;
+
+        .p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+
+    }
+
+}
